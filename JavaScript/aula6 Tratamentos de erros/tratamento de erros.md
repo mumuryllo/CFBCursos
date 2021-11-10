@@ -1,0 +1,1 @@
+try e catch-basicamente são funções que trabalham para dar comportammento ao erro
