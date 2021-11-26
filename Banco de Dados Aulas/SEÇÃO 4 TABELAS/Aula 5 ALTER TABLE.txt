@@ -1,0 +1,15 @@
+ALTER TABLE-Altera a estrutura de uma tabela
+Ações
+-ADD,Remover ou alterar uma coluna
+-Setar valores padrão de uma coluna
+-Add ou Remover restriçoes de uma coluna
+-Renomear uma tabela
+
+alter table youtu
+add ativo bit
+
+alter table youtu
+alter column category varchar(300) not null
+
+exec sp_rename 'youtu.nome','Mumuzito','COLUMN' nome da tabela.colunaatual coluna nova column e possivel altera só a tabela
+select* from youtu

@@ -1,0 +1,23 @@
+HAVING-WHERE PARA DADOS AGRUPADOS, É ULTILIZADO JUNTO COM O GROUP BY
+A grande diferença é que group by é aplicado depos que os dados foram agrupados, e o where é aplicados antes dos dados serem agrupados
+
+SELECT FirstName, COUNT(FirstName) as "quantidade"
+FROM Person.Person
+group by FirstName
+having COUNT(FirstName)>10
+--por exemplo queremos saber qual é o total de vendas dos produtos
+--estão entre 162k a 500k
+SELECT TOP 10*
+FROM Sales.SalesOrderDetail
+
+SELECT productid,SUM(LineTotal) as "TOTAL"
+FROM Sales.SalesOrderDetail
+GROUP BY ProductID
+HAVING SUM(LineTotal) between 162000 and 500000
+
+AS-Basicamente vc pode dar um nome a uma função que vc fez
+pra ficar mais claro o códiigo
+
+
+SELECT TOP 10 avg(ListPrice) as "PREÇO MÉDIO"
+FROM Production.Product

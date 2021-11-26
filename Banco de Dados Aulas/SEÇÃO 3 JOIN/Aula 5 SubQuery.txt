@@ -1,0 +1,6 @@
+--SubQuery(SubSelect Avançado)
+--Monte um relatório de todos os produtos cadastrados que tem preço de venda acima da média
+
+SELECT *
+FROM Production.Product
+WHERE ListPrice > (SELECT AVG(ListPrice) FROM Production.Product)

@@ -1,0 +1,15 @@
+-O GROUP BY divide o resultado da sua pesquisa em grupos
+para cada grupo vc pode aplicar uma função de agregação,por exemplo:
+-calcular a soma de itens
+-contar o numeros de itens daquele grupo
+
+
+SELECT *
+FROM Sales.SalesOrderDetail
+
+SELECT SpecialOfferID, sum(UnitPrice) AS "SOMA"
+FROM Sales.SalesOrderDetail
+GROUP BY SpecialOfferID
+
+resumindo transforma tudo em uma coisa só e deixa o código mais limpo
+

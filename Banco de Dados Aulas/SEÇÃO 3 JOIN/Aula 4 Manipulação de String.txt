@@ -1,0 +1,14 @@
+CONCAT-Cola as informações
+
+SELECT CONCAT(FirstName,'',LastName)
+FROM Person.Person
+
+REPLACE- Substitui o que vc quer colocar no lugar tem 3 parametros coluna, o que vc quer substituir e o que vc vai colocar
+
+SELECT ProductNumber, REPLACE(ProductNumber,'-','#')
+FROM Production.Product
+
+ROUND- Basicamente é função de arredondamento tem 2 parametros coluna e o numeros de casas que vai arredondar
+
+SELECT ROUND(LineTotal,4)
+FROM Sales.SalesOrderDetail

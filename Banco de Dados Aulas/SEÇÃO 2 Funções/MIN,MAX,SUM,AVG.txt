@@ -1,0 +1,15 @@
+SELECT TOP 10 sum(LineTotal)
+FROM Sales.SalesOrderDetail;
+-Soma total
+
+SELECT TOP 10 max(LineTotal)
+FROM Sales.SalesOrderDetail;
+-Valor maximo
+
+SELECT TOP 10 min(LineTotal)
+FROM Sales.SalesOrderDetail;
+-Valor Minimo
+
+SELECT TOP 10 avg(LineTotal)
+FROM Sales.SalesOrderDetail;
+-Média dos valores

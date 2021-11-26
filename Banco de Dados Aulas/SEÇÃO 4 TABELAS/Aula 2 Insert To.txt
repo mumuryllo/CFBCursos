@@ -1,0 +1,7 @@
+INSERT INTO aula (id,nome)
+
+Values(2,'aula 2'),
+(3,'aula 3'),
+(4,'aula 4');
+Altere as linhas primeiro pra depois vc usar o select
+Select * From aula

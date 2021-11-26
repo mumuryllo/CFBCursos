@@ -1,0 +1,6 @@
+Update- vc pode altera uma ou todas as colunas de uma tabela uma coluna só vc precisa colocar where
+UPDATE aula
+SET nome ='mudei'
+where id=3
+
+Select * from aula

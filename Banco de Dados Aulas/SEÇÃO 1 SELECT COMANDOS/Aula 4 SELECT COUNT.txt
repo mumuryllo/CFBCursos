@@ -1,0 +1,9 @@
+Select Count(coluna)- serve para vc ver determinada quantidade de um tipo de dado.
+
+SELECT count(DISTINCT LastName)
+FROM Person.Person
+
+
+
+SELECT count(Size )
+FROM Production.Product

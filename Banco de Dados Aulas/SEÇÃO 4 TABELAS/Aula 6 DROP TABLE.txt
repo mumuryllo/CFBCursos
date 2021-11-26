@@ -1,0 +1,4 @@
+Drop table-Exclui a tabela
+
+DROP TABLE ErrorLog
+Quando vc for procurar não existe mais

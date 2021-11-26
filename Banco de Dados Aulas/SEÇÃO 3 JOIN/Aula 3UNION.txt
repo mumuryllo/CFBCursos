@@ -1,0 +1,16 @@
+UNION-Combina dois ou mais resultados de um select em um resultado apenas
+
+SELECT FirstName,Title
+FROM Person.Person 
+WHERE  Title='Mr.'
+
+UNION
+
+SELECT FirstName,Title
+FROM Person.Person
+WHERE MiddleName='A'
+
+DATEPAR- Filtra o mes ano e dia e vc pode ordena-las MONTH-MES YEAR-ANO DAY-DIA
+
+SELECT SalesOrderID,DATEPART(MONTH,OrderDate) AS MES
+FROM Sales.SalesOrderHeader

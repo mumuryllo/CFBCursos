@@ -1,0 +1,15 @@
+INNER JOIN- Junta informações de uma tabela com a outra
+
+SELECT TOP 10 *
+FROM Person.Person
+
+SELECT TOP 10 *
+FROM Person.EmailAddress
+
+SELECT p.BusinessEntityID,p.FirstName,p.LastName,pe.EmailAddress
+FROM Person.Person as P
+INNER JOIN Person.EmailAddress PE on p.BusinessEntityID =pe.BusinessEntityID
+
+SELECT pr.ListPrice,pr.Name,pc.Name
+FROM Production.Product Pr
+INNER JOIN Production.ProductSubcategory PC on PC.ProductSubcategoryID =pr.ProductSubcategoryID

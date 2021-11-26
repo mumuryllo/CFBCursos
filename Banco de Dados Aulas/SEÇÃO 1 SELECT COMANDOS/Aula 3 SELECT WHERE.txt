@@ -1,0 +1,33 @@
+SELECT nome da coluna
+FROM nome da tabela
+WHERE= CONDIÇÃO //Acompanha os operadores lógicos AND e OR <>-diferente de
+Serve para filtrar as informações
+
+SELECT *
+FROM Person.Person
+WHERE LastName ='miller' and FirstName ='anna';
+
+SELECT *
+FROM Production.Product
+WHERE Color ='blue' or Color ='red';
+
+SELECT *
+FROM Production.Product
+WHERE ListPrice>1500;
+
+Desafios
+
+
+
+SELECT Name
+FROM Production.Product
+WHERE Weight>500 and Weight<700;
+
+SELECT *
+FROM HumanResources.Employee
+WHERE MaritalStatus='m' and SalariedFlag='1';
+
+
+SELECT *
+FROM Person.Person
+WHERE FirstName='peter' and LastName='krebs';

@@ -1,0 +1,14 @@
+Select TOP quantidade de colunas que voce quer de um determinado tipo de dado.
+
+
+SELECT TOP 15 LastName
+FROM Person.Person
+
+ORDER BY-Ordena os dados de sua coluna de forma crescente ou decrescente. asc-crescente desc-decrescente
+
+SELECT *
+FROM Person.Person
+ORDER BY LastName desc, FirstName asc
+
+	
+

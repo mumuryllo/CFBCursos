@@ -1,0 +1,4 @@
+DISCTINCT-Remove os duplicados de uma tabela
+
+SELECT DISTINCT LastName
+FROM Person.Person;

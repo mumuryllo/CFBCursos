@@ -1,0 +1,16 @@
+Com o comando SELECT coluna1,Coluna2 ou (*)-selecionas todas as collunas da tabela por exemplo
+FROM nome da tabela;
+Retorna com todas as informações
+
+SELECT *
+FROM Person.Person;
+
+SELECT Title
+FROM Person.Person;
+
+SELECT *
+FROM Person.EmailAddress;
+
+SELECT FirstName,LastName
+FROM Person.Person;
+

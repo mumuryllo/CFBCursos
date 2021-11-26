@@ -1,0 +1,9 @@
+Delete- vc pode remover a tabela ou uma linha da tabela com where
+
+Select * from aula
+
+DELETE FROM aula
+Where nome='mudei'-UMA LINHA SÓ
+
+
+DELETE FROM aula-TODAS AS LINHAS DA TABELA

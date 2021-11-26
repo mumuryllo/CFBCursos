@@ -1,3 +1,0 @@
-SetTimeOut(função, tempo em milisegundos)-inicia função depois de um tempo e para
-SetInterval(função, tempo em milisegundos)-inicia um função automaticamente com um intervalo de tempo
-ClearInterval(função, tempo em milisegundos)-para determinada função depois de um tempo
